@@ -1,0 +1,118 @@
+body {
+    background-color: #f8f8f8;
+    font-family: "FonteCorpo", sans-serif;
+  }
+
+/* Reset global para evitar estouro de tela por margens do navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*===== PARTE DAS FONTES ======*/
+
+@font-face {
+  font-family: 'FonteSubtitulo'; 
+  src: url('../fonts/Arimo-VariableFont_wght.ttf') format('woff2'), 
+       url('../fonts/Arimo-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FonteTitulo'; 
+  src: url('../fonts/Syne-ExtraBold.ttf') format('woff2'), 
+       url('../fonts/Syne-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FonteCorpo'; 
+  src: url('../fonts/BIZUDGothic-Regular.ttf') format('woff2'), 
+       url('../fonts/BIZUDGothic-Regular.ttf') format('truetype');
+}
+
+#logo {
+  font-family: "fonteTitulo";
+  font-weight: bold;
+  color: #8f2b2b;
+}
+
+.inicioTitulo{
+  font-family: "fonteTitulo";
+  font-weight: bold;
+  color: #8f2b2b;
+  font-size: 6rem;
+}
+
+.inicioSubtitulo {
+  font-family: "fonteSubtitulo";
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+#sobreMimTitulo {
+  font-family: "fonteTitulo";
+  font-weight: bold;
+  color: #8f2b2b;
+}
+
+header {
+  height: 6rem;
+  border-bottom: solid 5px black;
+  width: 100%;
+  position: fixed;
+  background-color: #f8f8f8;
+  margin-top: -6rem;
+}
+.active {
+  color: #f8f8f8;
+  background-color: #8f2b2b;
+  height: 6rem;
+  width: 3rem
+}
+
+/* Alinha a logo à esquerda e o menu à direita */
+.menu-position {
+  max-width: 130rem;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+/* Alinha a lista de links e o botão de projetos lado a lado */
+.menu-options {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Coloca os itens do nav em linha e remove os pontos da lista */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.nav-links a, 
+.menu-options > a {
+  text-decoration: none;
+  color: black;
+}
+
+.inicioTextos {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  height: 100%;
+  text-align: left;
+  margin-top: 6rem;
+  padding-right: 70rem;
+  padding-left: 2rem;
+}
+
+#sobre {
+  background-color: red;
+}
