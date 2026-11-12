@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: #f8f8f8;
     font-family: "FonteCorpo", sans-serif;
   }
 
@@ -50,7 +50,7 @@ header {
   border-bottom: solid 5px black;
   width: 100%;
   position: fixed;
-  background-color: #ffffff;
+  background-color: #f8f8f8;
   margin-top: -6rem;
   z-index: 5;
 }
@@ -125,7 +125,7 @@ header {
 }
 
 #sobre {
-  background-color: #ffffff;
+  background-color: #f8f8f8;
   margin-top: 10rem;
   padding: 5rem;
   position: relative;
@@ -173,6 +173,6 @@ footer {
 .footerButtons {
   background-color: rgba(178, 34, 34, 0);
   border: none;
-  color: white;
+  color: #f8f8f8;
   font-size: 2rem;
 }
