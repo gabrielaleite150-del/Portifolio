@@ -34,6 +34,7 @@ header {
   left: 0;
   background-color: #f8f8f8;
   border-bottom: solid 5px black;
+  z-index: 2;
 }
 
 #logo {
@@ -79,10 +80,87 @@ header {
 }
 
 .inicioImagem {
-  height: 15rem;
+  height: 10rem;
   width: auto;
   position: absolute;
-  bottom: 5%;
-  margin-top: -2rem;
+  top: 40%;
   right: 3%;
+}
+
+.titulos > h1 {
+  font-family: "FonteTitulo", sans-serif;
+  font-size: 6rem;
+  color: #8f2b2b;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.titulos h3 {
+  font-family: "FonteSubtitulo", sans-serif;
+  font-size: 3rem;
+  color: #000000;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.imagensInicio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem; 
+  width: 100%;
+  max-width: 100rem;
+  height: 35rem;
+  margin-left: 10rem;
+}
+
+.imagensInicio > img {
+  flex: 1; 
+  min-width: 0;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: translateY(-3px) scale(1.05); 
+}
+
+.textosL {
+  margin-right: 1rem;
+  width: 50rem;
+  height: auto;
+}
+
+h1 {
+  font-family: "FonteTitulo", sans-serif;
+  font-size: 5rem;
+  color: #8f2b2b;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-family: "FonteCorpo", sans-serif;
+  font-size: 2em;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.imgR {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.imgS {
+  width: 20rem;
+  height: auto;
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
 }
